@@ -33,8 +33,8 @@ class MainFragment : Fragment() {
         DaysFragment.newInstance()
     )
     private val tList = listOf(
-        "Hours",
-        "Days"
+        "Часы",
+        "Дни"
     )
     private lateinit var plauncher: ActivityResultLauncher<String>
     private lateinit var binding: FragmentMainBinding
@@ -161,9 +161,7 @@ class MainFragment : Fragment() {
             weatherItem.hours
         )
         model.liveDataCurrent.value = item
-            Log.d("MyLog", "City: ${item.maxTemp}")
-        Log.d("MyLog", "Time: ${item.minTemp}")
-        Log.d("MyLog", "Time: ${item.hours}")
+
 
     }
 
