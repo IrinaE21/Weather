@@ -75,7 +75,7 @@
                 android:fontFamily="sans-serif-condensed"
                 android:text="20 C"
                 android:textColor="@color/white"
-                android:textSize="70sp"
+                android:textSize="50sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/tvCity" />
